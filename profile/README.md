@@ -12,7 +12,7 @@ The existing Rust landscape for game modding is fragmented: stale crates, C FFI 
 | [`procmod-scan`](https://github.com/procmod/procmod-scan) | ![test](https://github.com/procmod/procmod-scan/actions/workflows/test.yml/badge.svg) | [![crates.io](https://img.shields.io/crates/v/procmod-scan)](https://crates.io/crates/procmod-scan) | Pattern and signature scanning with SIMD acceleration |
 | [`procmod-layout`](https://github.com/procmod/procmod-layout) | ![test](https://github.com/procmod/procmod-layout/actions/workflows/test.yml/badge.svg) | [![crates.io](https://img.shields.io/crates/v/procmod-layout)](https://crates.io/crates/procmod-layout) | Struct mapping with pointer chain traversal via derive macros |
 | [`procmod-hook`](https://github.com/procmod/hook) | ![test](https://github.com/procmod/hook/actions/workflows/test.yml/badge.svg) | [![crates.io](https://img.shields.io/crates/v/procmod-hook)](https://crates.io/crates/procmod-hook) | Inline function hooking and detouring |
-| `procmod-overlay` | | | Game overlay rendering |
+| [`procmod-overlay`](https://github.com/procmod/overlay) | ![test](https://github.com/procmod/overlay/actions/workflows/test.yml/badge.svg) | [![crates.io](https://img.shields.io/crates/v/procmod-overlay)](https://crates.io/crates/procmod-overlay) | Game overlay rendering with transparent click-through windows |
 
 ---
 
