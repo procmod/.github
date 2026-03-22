@@ -6,13 +6,13 @@ The existing Rust landscape for game modding is fragmented: stale crates, C FFI 
 
 ## Crates
 
-| Crate | Description |
-|-------|-------------|
-| [`procmod-core`](https://github.com/procmod/procmod-core) | Cross-platform process memory read/write |
-| [`procmod-scan`](https://github.com/procmod/procmod-scan) | Pattern and signature scanning with SIMD acceleration |
-| `procmod-layout` | Struct mapping with pointer chain traversal via derive macros |
-| `procmod-hook` | Inline function hooking and detouring |
-| `procmod-overlay` | Game overlay rendering |
+| Crate | Test | Version | Description |
+|-------|------|---------|-------------|
+| [`procmod-core`](https://github.com/procmod/procmod-core) | ![test](https://github.com/procmod/procmod-core/actions/workflows/test.yml/badge.svg) | [![crates.io](https://img.shields.io/crates/v/procmod-core)](https://crates.io/crates/procmod-core) | Cross-platform process memory read/write |
+| [`procmod-scan`](https://github.com/procmod/procmod-scan) | ![test](https://github.com/procmod/procmod-scan/actions/workflows/test.yml/badge.svg) | [![crates.io](https://img.shields.io/crates/v/procmod-scan)](https://crates.io/crates/procmod-scan) | Pattern and signature scanning with SIMD acceleration |
+| `procmod-layout` | | | Struct mapping with pointer chain traversal via derive macros |
+| `procmod-hook` | | | Inline function hooking and detouring |
+| `procmod-overlay` | | | Game overlay rendering |
 
 ---
 
